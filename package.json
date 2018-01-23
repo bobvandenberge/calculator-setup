@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "somecode.js",
-  "dependencies": {},
+  "dependencies": {
+  },
   "devDependencies": {
+    "http-server": "^0.11.1",
     "jasmine": "^2.9.0",
     "karma": "^2.0.0",
     "karma-chrome-launcher": "^2.2.0",
     "karma-jasmine": "^1.1.1"
   },
   "scripts": {
+    "start": "./node_modules/.bin/http-server",
     "test": "karma start --single-run"
   },
   "repository": {
