@@ -27,8 +27,12 @@ When I press the = button
 Then I expect 15 in the input box
 ```
 
-## Get started
+## Get started for frontend
 
 - `npm install` to install the dependencies
 - `npm test` to run the test case(s)
 - `npm start` to run the web server (on port 8080)
+
+## Get started for backend
+
+- Import maven project and run
